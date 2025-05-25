@@ -23,4 +23,4 @@ The file imports both previously mentioned files and contains 4 functions.
 
 First is the ```huffmantree``` function which creates the tree. Then is the ```treelog``` function, which takes the resulting Huffman tree as a parameter and returns a dictionary with characters and their corresponding codes which can be used to compress text. This also uses recursion (you can tell I like recursion). The ```huffmancode``` function takes a string as a parameter, uses the ```huffmantree``` and ```treelog``` functions and returns the compressed text and the Huffman tree. Finally, the creatively named ```huffmandecode``` function takes the compressed text and Huffman tree as parameters and returns the decoded string.
 
-I can now move on with my life.
+# I can now move on with my life.
