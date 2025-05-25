@@ -7,7 +7,7 @@ This file has a merge sort algorithm.
 
 I made this file because during the Huffman coding algorithm, when merging nodes while creating the Huffman tree, nodes must always be ordered based on frequency. I didn't want to just use another default Python function (i.e., ```list.sort()```), so I decided I'd code an algorithm using merge sort instead, since it's one of the most efficient sorting algorithms out there and also to get some practice in.
 
-There are two functions in the file- the actual ```mergesort``` function, which uses recursion, and the ```merge2``` function. The latter is used in the mergesort function when merging sub lists.
+There are two functions in the file- the actual ```mergesort``` function, which uses recursion, and the ```merge2``` function. The latter is used in the ```mergesort``` function when merging sub lists.
 
 ### nodeclasses.py
 This file contains classes for nodes used in the Huffman tree.
